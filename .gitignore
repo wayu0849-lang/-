@@ -31,7 +31,7 @@ wheels/
 kaggle.json
 *.token
 
-# Datasets & Images (Do not push heavy data files or images to Git)
+# Datasets & Raw Images (Do not push heavy data files or images to Git)
 data/
 dataset/
 datasets/
@@ -41,7 +41,7 @@ downloads/
 *.tgz
 *.rar
 
-# Image file formats
+# Raw image file formats in root or data
 *.jpg
 *.jpeg
 *.png
@@ -49,6 +49,13 @@ downloads/
 *.bmp
 *.tiff
 *.webp
+
+# Whitelist documentation & report assets
+!reports/**/*.png
+!reports/**/*.jpg
+!reports/**/*.svg
+!reports/**/*.md
+!reports/**/*.csv
 
 # IDEs & OS
 .vscode/
