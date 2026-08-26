@@ -1,0 +1,105 @@
+class_name,test,train,valid
+cat - abyssinian,12,498,22
+cat - american shorthair,20,471,20
+cat - bengal,23,1020,37
+cat - birman,17,489,20
+cat - bombay,13,437,25
+cat - british shorthair,12,477,29
+cat - egyptian mau,17,477,20
+cat - maine coon,23,471,20
+cat - mainecoon,15,484,23
+cat - persian,11,501,22
+cat - ragdoll,41,927,38
+cat - russian blue,17,446,34
+cat - scottishfold,12,491,24
+cat - siamese,10,480,30
+cat - sphinx,15,500,18
+cat - sphynx,15,474,27
+dog - afghan,9,210,6
+dog - african wild dog,6,210,9
+dog - airedale,9,225,12
+dog - akita,3,111,4
+dog - american hairless,9,129,7
+dog - american spaniel,3,200,13
+dog - aspin,3,90,2
+dog - basenji,9,209,9
+dog - basset,15,261,14
+dog - beagle,14,318,15
+dog - bearded collie,9,180,10
+dog - bermaise,5,246,8
+dog - bernard-dog - saint,1,81,5
+dog - bernese mountain,2,110,3
+dog - bichon frise,2,234,6
+dog - blenheim,7,240,9
+dog - bloodhound,9,249,15
+dog - bluetick,8,222,12
+dog - border collie,6,207,15
+dog - border-dog - collie,4,99,7
+dog - borzoi,8,219,13
+dog - boston terrier,5,165,7
+dog - boxer,8,330,18
+dog - bull mastiff,6,243,10
+dog - bull terrier,5,216,13
+dog - bulldog,10,357,12
+dog - bulldong-dog - french,3,99,8
+dog - cairn,10,207,13
+dog - cavalier-dog - charles-dog - king-dog - spaniel,3,102,5
+dog - chihuahua,18,287,20
+dog - chinese crested,7,213,18
+dog - chow,8,309,17
+dog - clumber,6,246,12
+dog - coated-dog - flat-dog - retriever,6,111,4
+dog - cockapoo,7,213,17
+dog - cocker,5,279,7
+dog - collie,10,225,9
+dog - corgi,13,321,16
+dog - coyote,5,162,8
+dog - dachshund,4,87,2
+dog - dalmatian,10,252,12
+dog - dhole,7,234,8
+dog - dingo,7,255,19
+dog - doberman,16,383,15
+dog - doberman-dog - pinscher,6,78,7
+dog - elk hound,6,234,13
+dog - french bulldog,3,162,9
+dog - german sheperd,8,207,14
+dog - german-dog - sheperd,2,99,5
+dog - golden retriever,10,240,8
+dog - golden-dog - retriever,5,93,4
+dog - great dane,11,204,10
+dog - great perenees,7,138,8
+dog - greyhound,11,282,22
+dog - groenendael,10,228,8
+dog - havanese,3,111,8
+dog - husky-dog - siberian,3,99,11
+dog - irish spaniel,6,237,5
+dog - irish wolfhound,7,189,9
+dog - japanese spaniel,8,254,13
+dog - komondor,6,203,15
+dog - labradoodle,5,171,12
+dog - labrador,5,297,20
+dog - labrador-dog - retriever,1,87,4
+dog - lhasa,9,306,10
+dog - malinois,3,207,10
+dog - maltese,7,240,14
+dog - mex hairless,6,194,11
+dog - miniature-dog - schnauzer,1,87,3
+dog - newfoundland,5,150,10
+dog - pekinese,2,213,11
+dog - pit bull,15,198,14
+dog - pomeranian,11,344,20
+dog - poodle,11,291,12
+dog - pug,11,390,15
+dog - rhodesian,9,246,8
+dog - rottweiler,10,270,19
+dog - saint bernard,4,138,15
+dog - schnauzer,10,215,7
+dog - scotch terrier,9,281,9
+dog - shar pei,5,189,13
+dog - sheepdog-dog - shetland,2,99,8
+dog - shiba inu,6,183,6
+dog - shih-dog - tzu,3,93,5
+dog - shih-tzu,11,354,21
+dog - siberian husky,9,141,10
+dog - vizsla,4,150,5
+dog - yorkie,13,171,5
