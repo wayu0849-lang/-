@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Kaggle / Secrets / Environment Variables
+.env
+.env.*
+.kaggle/
+kaggle.json
+*.token
+
+# Datasets & Images (Do not push heavy data files or images to Git)
+data/
+dataset/
+datasets/
+downloads/
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Image file formats
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# IDEs & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
