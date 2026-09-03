@@ -61,7 +61,7 @@ if %errorlevel% neq 0 (
 echo [SUCCESS] Preprocessing completed. Report generated at reports/preprocessing/preprocessing_report.md
 echo.
 
-echo [STEP 5/5] Running Data Splitting Verification...
+echo [STEP 5/6] Running Data Splitting Verification...
 python src/split_data.py
 if %errorlevel% neq 0 (
     echo [ERROR] Data splitting step failed.
@@ -71,14 +71,28 @@ if %errorlevel% neq 0 (
 echo [SUCCESS] Data splitting completed. Report generated at reports/data_splitting/data_splitting_report.md
 echo.
 
+echo [STEP 6/6] Generating PowerPoint Presentation Slides...
+python src/generate_slides.py
+if %errorlevel% neq 0 (
+    echo [WARNING] Presentation generation encountered an issue, skipping.
+) else (
+    echo [SUCCESS] Presentation slides generated at presentation_dogs_cats_pipeline.pptx
+)
+echo.
+
 echo ===============================================================================
-echo                    PIPELINE EXECUTION FINISHED SUCCESSFULLY
+echo                    DATA PIPELINE FINISHED SUCCESSFULLY
 echo ===============================================================================
 echo Summary of Generated Reports and Artifacts:
+echo   - Presentation Slides:   presentation_dogs_cats_pipeline.pptx
+echo   - Speaker Script Notes:  reports/presentation_slides.md
 echo   - Master Report:         reports/project_summary_report.md
 echo   - EDA Report:            reports/eda/eda_report.md
 echo   - Preprocessing Report:  reports/preprocessing/preprocessing_report.md
 echo   - Data Splitting Report: reports/data_splitting/data_splitting_report.md
+echo ===============================================================================
+echo [TIP] To train the Deep Learning model, run 'run_train.bat' or:
+echo       python src/train.py --epochs 10 --batch_size 32
 echo ===============================================================================
 echo.
 pause

@@ -41,6 +41,15 @@ downloads/
 *.tgz
 *.rar
 
+# Model weights & checkpoints (Prevent large binary files on Git)
+models/*.pth
+models/*.pt
+models/*.bin
+models/*.onnx
+*.pth
+*.pt
+*.onnx
+
 # Raw image file formats in root or data
 *.jpg
 *.jpeg
